@@ -4,7 +4,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    background: #040024 ;
     font-family: Arial, sans-serif;
   }
   
@@ -15,7 +15,7 @@ body {
     max-width: 400px;
     margin: 16px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    background-color: #ffffff;
+    background-color: #0a023c;
     color: #333;
     text-align: center;
   }
@@ -23,11 +23,11 @@ body {
   .account-info p {
     margin: 12px 0;
     font-size: 16px;
-    color: #555;
+    color: white;
   }
   
   .disconnect-button, .send-button, .wallet-button {
-    background-color: #007bff;
+    background-color: #7d6dda;
     color: #fff;
     border: none;
     border-radius: 8px;

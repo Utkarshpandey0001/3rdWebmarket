@@ -26,10 +26,10 @@ export function SendTransaction() {
     const to = document.getElementById('to').value;
     const value = document.getElementById('value').value;
 
-    // Set interval for recurring payment
+    
     const id = setInterval(() => {
       sendTransaction({ to, value: parseEther(value) });
-    }, days * 24 * 60 * 60 * 1000); // Convert days to milliseconds
+    }, days * 24 * 60 * 60 * 1000); 
     setIntervalId(id);
   }
 

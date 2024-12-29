@@ -6,7 +6,7 @@ const Home = () => {
 
   const QuickActions = [
     { name: "Convert", icon: "/convert.png", path: "https://exchange-dusky.vercel.app" },
-    { name: "Coupons", icon: "/coupons.png", path: "https://coupon-cashback-cnqsoogv9-sjk2150s-projects.vercel.app/coupon-redemption" },
+    { name: "Coupons", icon: "/coupons.png", path: "https://coupon-cashback.vercel.app/coupon-redemption" },
     { name: "Lending", icon: "/lending.png", path: "https://loans-lac.vercel.app" },
   ];
 
@@ -157,7 +157,7 @@ const Home = () => {
           width="90"
           alt="Centered Icon"
           className="absolute top-0 transform -translate-y-1/2"
-          onClick={() => navigate("/home")}
+          onClick={() => window.location.href="https://qr-payments3.vercel.app/qrpayments"}
         />
       </div>
     </div>

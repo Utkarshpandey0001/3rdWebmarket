@@ -19,7 +19,7 @@ const Root = () => {
         onClick={() => {navigate("/home")}}
       >
         <div className="flex items-center">
-          <span className="mr-2">Connect Wallet</span>
+          <span className="mr-2">Welcome</span>
           <img src="/link icon.png" alt="Icon" className="w-4 h-4" />
         </div>
       </button>
